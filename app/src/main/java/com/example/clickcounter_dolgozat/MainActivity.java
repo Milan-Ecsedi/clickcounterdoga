@@ -82,6 +82,33 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Kimenet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                Szam  = 0;
+                Kimenet.setText(String.valueOf(Szam));
+
+                if (Szam > 0){
+
+                    Kimenet.setTextColor(Color.rgb(13,239,81));
+
+                }
+                else if(Szam<0){
+
+                    Kimenet.setTextColor(Color.rgb(239,13,13));
+
+                }
+                else {
+
+                    Kimenet.setTextColor(Color.rgb(13,13,239));
+
+                }
+
+            }
+        });
+
 
     }
 
