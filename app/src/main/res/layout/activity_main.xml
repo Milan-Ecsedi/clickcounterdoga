@@ -21,9 +21,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/ButtonPlus"
         android:layout_marginHorizontal="35sp"
-        android:text="6"
+        android:text="0"
         android:id="@+id/TextViewOutput"
-        android:textColor="@color/white"
+        android:textColor="@color/purple_700"
 
         android:textSize="30sp" />
 
